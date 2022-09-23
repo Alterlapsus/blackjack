@@ -26,3 +26,12 @@ body{
     font-size: 25px;
     text-align: center;
 }
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+#computadora-cartas, #jugador-cartas{
+    height: 220px;
+}
