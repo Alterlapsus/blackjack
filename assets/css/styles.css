@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: #2F4F30;
+    color: #fff;
+}
+
+.header{
+    background-color: #2F4F30;
+}
+.header__title{
+    background-color: #000;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
