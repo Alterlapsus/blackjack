@@ -10,13 +10,55 @@
    
     <link rel="stylesheet" href="/assets/css/styles.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script> 
+    <script> 
+    window.addEventListener('DOMContentLoaded', ( ) => { 
+        VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        birdSize: 1.60,
+        wingSpan: 21.00,
+        speedLimit: 4.00,
+        separation: 87.00,
+        alignment: 81.00,
+        cohesion: 74.00,
+        quantity: 3.00,
+        backgroundAlpha: 0.0
+      })
+    }) 
+      </script>
 </head>
+<div id="vanta"></div>
 <body>
     
     <header class="header">
         <h1 class="header__title">Blackjack</h1>
     </header>
 
+    <div class="row mt-2">
+
+        <div class="col text-center">
+            <button class="btn btn-danger">Nuevo Juevo</button>
+            <button class="btn btn-primary">Pedir Carta</button>
+            <button class="btn btn-primary">Detener</button>
+        </div>
+
+    </div>
+
+    <div class="row container">
+        <div class="col">
+
+            <h2>Jugador 1 <small>0</small></h2>
+
+        </div>
+    </div>
 
     <script src="/assets/js/juego.js"></script>
 </body>
