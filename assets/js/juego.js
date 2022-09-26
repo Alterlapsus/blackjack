@@ -38,7 +38,7 @@ crearDeck();
 
 
 
-// Está funcion me permite tomar una carta
+// Está funcion me permite tomar una carta de la deck
 
 const pedirCarta = () => {
 
