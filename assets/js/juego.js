@@ -41,6 +41,25 @@ crearDeck();
 
 const pedirCarta = () => {
 
-    return '2C';
+    if (deck.length === 0){
+        throw 'No hay cartas en el deck';
+        // mostrará un erro en consola y ya no ejecutará el código 
+    }
+
+    const carta = deck.pop(); //.pop(); elimina el último elemento del arreglo y lo regresa 
+
+
+    console.log(deck);
+    console.log(carta); // carta debe de ser de la baraja
+    return carta;
+
 }
+
+// el ciclo me servirá para saber si mi función .pop funciona correctamente, ya que eliminarara las cartas 1 a 1 hasta llegar a cero
+
+// for( let i = 0; i <= 100; i++ ){
+//     pedirCarta();
+    
+// }
+// deck = [];
 
