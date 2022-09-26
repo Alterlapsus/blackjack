@@ -42,6 +42,5 @@ crearDeck();
 
 const pedirCarta = () => {
 
-
     return '2C';
 }
