@@ -37,7 +37,6 @@ crearDeck();
 // for of, se le dio un let tipo of tipos, deck.push i + tipo
 
 
-
 // Está funcion me permite tomar una carta de la deck
 
 const pedirCarta = () => {
