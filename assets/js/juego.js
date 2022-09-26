@@ -63,3 +63,41 @@ const pedirCarta = () => {
 // }
 // deck = [];
 
+// PedirCarta();
+
+// const valorCarta = ( carta ) => {
+    
+//     const valor = carta.substring(0, carta.length - 1);
+
+    // let puntos = 0;
+    // 2 = 2,  10 = 10, 3 = 3
+
+    // if( isNaN( valor ) ){
+        // console.log('No es un número');
+        
+        // puntos = ( valor === 'A' ) ? 11 : 10;
+
+
+    // }else{
+        // console.log('Es un número');
+        // puntos = valor * 1;
+    // }
+    // console.log(puntos)
+// }
+
+// valorCarta('9D'); 
+
+
+// SE PROCEDE A REDUCIR LA FUNCIÓN 
+
+const valorCarta = ( carta ) => {
+    
+    const valor = carta.substring(0, carta.length - 1);
+    return ( isNaN(valor)) ?
+    ( valor === 'A') ? 11 : 10
+    : valor * 1; 
+
+}    
+
+const valor = valorCarta( pedirCarta() );
+console.log({ valor });
