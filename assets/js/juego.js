@@ -129,6 +129,14 @@ const turnoComputadora = ( puntosMinimos) => {
         }
         
     }while( puntosComputadora < puntosMinimos && (puntosMinimos <= 21 ));
+
+    if( puntosComputadora === puntosMinimos ){
+        alert('Nadie gana: (');
+    }else if ( puntosMinimos > 21 ){
+        alert('Computadora gana');
+    } else if ( puntosComputadora > 21 ){
+        alert('Jugador Gana');
+    }
 }
 
 
