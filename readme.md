@@ -4,4 +4,5 @@
 - Se implementa librería Underscore.js
 - Se implementa librería Vanta.js
 
-- Aún se encuentra en proceso la creación de juego
+- Aún se encuentra en proceso la creación de juego 
+
